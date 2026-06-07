@@ -1,4 +1,4 @@
-# Encrypted Energy — Umbrel Community App Store
+# Encrypted Energy: Umbrel Community App Store
 
 A [community app store](https://github.com/getumbrel/umbrel-community-app-store)
 for [umbrelOS](https://umbrel.com), publishing apps from
@@ -24,12 +24,12 @@ The app's icon and gallery images are referenced by **absolute** raw-GitHub
 URLs inside `encryptedenergy-ee-gateway/umbrel-app.yml`, of the form:
 
 ```
-https://raw.githubusercontent.com/encryptedenergy/umbrel-community-app-store/main/encryptedenergy-ee-gateway/<path>
+https://raw.githubusercontent.com/Encrypted-Energy/umbrel-community-app-store/main/encryptedenergy-ee-gateway/<path>
 ```
 
 For those URLs to resolve, this repository **must** be:
 
-- under the GitHub org/user **`encryptedenergy`**,
+- under the GitHub org/user **`Encrypted-Energy`**,
 - named exactly **`umbrel-community-app-store`**,
 - with its default branch named **`main`**.
 
@@ -53,10 +53,10 @@ encryptedenergy-ee-gateway/
 
 `encryptedenergy-ee-gateway/umbrel-app.yml`, `docker-compose.yml`, and
 `icon.svg` are **copies** of the files in the
-[ee-gateway](https://github.com/encryptedenergy/ee-gateway) repo's `umbrel/`
+[gateway](https://github.com/Encrypted-Energy/gateway) repo's `umbrel/`
 directory, which is the source of truth. When you change the app's Umbrel
-packaging, edit it in `ee-gateway/umbrel/`, then copy the three files here and
-bump `version:` in both places. The current published version is **0.1.0**.
+packaging, edit it in `gateway/umbrel/`, then copy the three files here and
+bump `version:` in both places. The current published version is **0.1.1**.
 
 ## License
 
