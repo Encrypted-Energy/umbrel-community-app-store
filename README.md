@@ -56,7 +56,7 @@ encryptedenergy-ee-gateway/
 [gateway](https://github.com/Encrypted-Energy/gateway) repo's `umbrel/`
 directory, which is the source of truth. When you change the app's Umbrel
 packaging, edit it in `gateway/umbrel/`, then copy the three files here and
-bump `version:` in both places. The current published version is **0.1.1**.
+bump `version:` in both places. The current published version is **0.1.2**.
 
 ## License
 
